@@ -1,0 +1,62 @@
+﻿Build started 16/05/2017 18:15:34.
+     1>Project "D:\Tolfaine\Education et emploi\Education\Enjmin\Projets\Synthese Sonore\base_v2\SyntheseSonore\_sound_app\base\base.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Tolfaine\Logiciels\VC\bin\CL.exe /c /I../src /I../src/external /I../../_engine/src /I../../_engine/src/external /I../../_engine/src/external/bullet/src /ZI /nologo /W3 /WX- /Od /Oy- /D LOG_FILE /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D TETLIBRARY /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\_engine\src\engine\log\log.cpp ..\..\_engine\src\engine\render\renderer.cpp ..\..\_engine\src\engine\sound\sound.cpp ..\src\main.cpp
+         main.cpp
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_engine\src\engine\utils\ny_utils.h(28): warning C4005: 'NAN' : macro redefinition
+                 d:\tolfaine\logiciels\vc\include\math.h(106) : see previous definition of 'NAN'
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_engine\src\engine\sound\continuous_sound.h(42): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_engine\src\engine\sound\continuous_sound.h(48): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_engine\src\engine\sound\continuous_sound.h(261): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_engine\src\engine\sound\continuous_sound.h(272): warning C4244: 'initializing' : conversion from 'float' to 'sint16', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_engine\src\engine\sound\continuous_sound.h(304): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_engine\src\engine\sound\continuous_sound.h(308): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_engine\src\engine\sound\continuous_sound.h(311): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_engine\src\engine\sound\continuous_sound.h(323): warning C4244: '=' : conversion from 'float' to 'sint16', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_engine\src\engine\sound\granular_sound.h(120): warning C4244: 'initializing' : conversion from 'ALfloat' to 'int', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_engine\src\engine\sound\sinus_sound.h(66): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_engine\src\engine\sound\sinus_sound.h(88): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_engine\src\engine\sound\sinus_sound.h(95): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_engine\src\engine\sound\noise_sound.h(37): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_engine\src\engine\sound\noise_sound.h(55): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_sound_app\src\main.cpp(120): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_sound_app\src\main.cpp(121): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_sound_app\src\main.cpp(125): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_sound_app\src\main.cpp(126): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_sound_app\src\main.cpp(127): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_sound_app\src\main.cpp(272): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_sound_app\src\main.cpp(273): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_sound_app\src\main.cpp(274): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_sound_app\src\main.cpp(275): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_sound_app\src\main.cpp(277): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_sound_app\src\main.cpp(290): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_sound_app\src\main.cpp(291): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_sound_app\src\main.cpp(292): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_sound_app\src\main.cpp(293): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_sound_app\src\main.cpp(295): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_sound_app\src\main.cpp(330): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\tolfaine\logiciels\vc\include\utility(157): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+                 d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_engine\src\engine\sound\noise_sound.h(18) : see reference to function template instantiation 'std::pair<float,float>::pair<int,float,void>(std::pair<int,float> &&)' being compiled
+                 d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_engine\src\engine\sound\noise_sound.h(18) : see reference to function template instantiation 'std::pair<float,float>::pair<int,float,void>(std::pair<int,float> &&)' being compiled
+         sound.cpp
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_engine\src\engine\utils\ny_utils.h(28): warning C4005: 'NAN' : macro redefinition
+                 d:\tolfaine\logiciels\vc\include\math.h(106) : see previous definition of 'NAN'
+         renderer.cpp
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_engine\src\engine\utils\ny_utils.h(28): warning C4005: 'NAN' : macro redefinition
+                 d:\tolfaine\logiciels\vc\include\math.h(106) : see previous definition of 'NAN'
+         log.cpp
+     1>d:\tolfaine\education et emploi\education\enjmin\projets\synthese sonore\base_v2\synthesesonore\_engine\src\engine\utils\ny_utils.h(28): warning C4005: 'NAN' : macro redefinition
+                 d:\tolfaine\logiciels\vc\include\math.h(106) : see previous definition of 'NAN'
+         Generating Code...
+       Link:
+         D:\Tolfaine\Logiciels\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Tolfaine\Education et emploi\Education\Enjmin\Projets\Synthese Sonore\base_v2\SyntheseSonore\_sound_app\Debug\base.exe" /INCREMENTAL /NOLOGO /LIBPATH:../lib /LIBPATH:../../_engine/lib openal32.lib alut.lib glew32.lib freeglut.lib Kernel32.lib Psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Tolfaine\Education et emploi\Education\Enjmin\Projets\Synthese Sonore\base_v2\SyntheseSonore\_sound_app\Debug\base.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Tolfaine\Education et emploi\Education\Enjmin\Projets\Synthese Sonore\base_v2\SyntheseSonore\_sound_app\Debug\base.lib" /MACHINE:X86 /SAFESEH Debug\log.obj
+         Debug\renderer.obj
+         Debug\sound.obj
+         Debug\main.obj
+     1>log.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         base.vcxproj -> D:\Tolfaine\Education et emploi\Education\Enjmin\Projets\Synthese Sonore\base_v2\SyntheseSonore\_sound_app\Debug\base.exe
+     1>Done Building Project "D:\Tolfaine\Education et emploi\Education\Enjmin\Projets\Synthese Sonore\base_v2\SyntheseSonore\_sound_app\base\base.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.80
